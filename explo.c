@@ -3,8 +3,35 @@
 #include<string.h>
 
 
+int changer (int a, int b){
+
+a = b;
+
+}
+
+
+
 
 int main (void){
+
+//A partir d'ici ça bloque.
+struct Lieu;
+
+typedef struct Lieu lieu(
+
+char Nom[10];
+char Description [50];
+int Difficultee;
+int tableauID;
+
+);
+
+printf("hahahaha\n\n\n");
+
+
+
+
+
 
 char choix [10] = {0};
 char choix1 [10] = {0};
@@ -33,24 +60,5 @@ if( strcmp (choix1,fleuve)==0){
 	printf("Votre decision prise, vous commencez a longer le Fleuve\n\n\n\n");
 }
 
-
-/*
-scanf("%s",&choix);
-
-if(choix == "foret"){
-
-	printf("\n\n");
-	printf("Apres quelques miutes de marches, vous arrivez A la lisiere de cette derniere\n\n");
-
-
-}
-
-if(choix == "fleuve"){
-
-	printf("\n\n");
-	printf("Votre decision prise, vous commencez a longer le Fleuve\n\n");
-
-}
-*/
 
 };
