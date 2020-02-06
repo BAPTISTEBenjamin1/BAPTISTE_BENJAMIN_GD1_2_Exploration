@@ -1,14 +1,31 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<time.h>
 #include<string.h>
+
 
 
 int main (void){
 
-printf("Hello world !\n\n\n");
+int choix = 0;
 
-printf("Vous partez à l'aventure !\n\n Il vous faut choisir une route, celle vers l'est, la Foret. Ou celle vers l'ouest, vous longer le Fleuve\n\n Tapez 1 pour la Foret\n\n Tapez 2 pour le Fleuve\n\n");
+	printf("Ou voulez-vous aller ? 1 pour la foret 2 pour le fleuve.");
+
+scanf("%s",&choix);
+
+if(choix = 1 ){
+
+	printf("\n\n");
+	printf("Apres quelques miutes de marches, vous arrivez A la lisiere de cette derniere\n\n");
 
 
 }
+
+if(choix = 2){
+
+	printf("\n\n");
+	printf("Votre decision prise, vous commencez a longer le Fleuve\n\n");
+
+}
+
+
+};
